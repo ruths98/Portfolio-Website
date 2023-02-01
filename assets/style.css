@@ -1,0 +1,33 @@
+.topheader{
+    display:flex;
+}
+
+.navbar {
+    display:flex;
+    justify-content:right;
+}
+.topic-names{
+    display:inline;
+    justify-content:left;
+}
+.work {
+display:flex;
+display: row;
+flex-direction:wrap;
+}
+.big-image {
+    width: 50%;
+}
+
+.image {
+    width: 25%;
+    height: 200px;
+}
+.footer {
+    display: inline-flex;
+}
+
+.contact-links {
+    display: flex;
+    justify-content:space-between;
+}
