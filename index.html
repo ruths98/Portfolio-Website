@@ -13,35 +13,62 @@
       <h1>Ruth Stevens</h1>
       <nav>
         <ul class="navbar">
-          <li>About me</li>
-          <li>Work</li>
-          <li>Contact me</li>
-          <li>Resume</li>
+          <li>
+            <a style="text-decoration:none;" href="#about-me" >About me</a>
+          </li> 
+          <!-- "style=""text-decoration:none;" removes the underline from the hyperlinked text-->
+          <li>
+            <a style="text-decoration:none;" href="#work">Work</a>
+          </li>
+          <li>
+            <a style="text-decoration:none;" href="#contact-me-title">Contact me</a>
+          </li>
+          <li>
+          Resume
+          </li>
         </ul>
       </nav>
     </header>
+    <div id="strip"></div>
   <!--place background image here-->
-  <aside class="topic-names">
-    <h2>About Me</h2>
-    <h2>Work</h2>
-  </aside>
-    <div><p>text about myself</p></div>
-      <section class="work">
-      <img class= big-image src="images/notes.placeholder.jpg" alt="a pen a paper">
-      <img class=image src="images/coffeeshop.placeholder.jpg" alt="a laptop with coffee on a desk by a window">
-      <img class= image src="images/fortuneteller.placeholder.jpg" alt="taro cards set out on display">
-      <img class=image src="images/gaming.placeholder.jpg" alt="handheld gaming consoles in a drawer.">
-      <img class=image src="images/workspace.placeholder.jpg" alt="a dual monitor workspace is on a desk with plants on either side">
-      </section>
+    <article class="about-me">
+      <h2 class="about-me-title">About Me</h2>
+      <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      </p>
+      </article>
+   <article class="work">
+    <h2 class="work-title">Work</h2>
+      <div class="flex-images">
+        <div class="big-image">
+          <p class="image-title">Prework Study Guide<br><br>HTML</p>
+        </div>
+        <div class="image1">
+          <!-- <img src="images/coffeeshop.placeholder.jpg" alt="a laptop with coffee on a desk by a window"> -->
+          <p class="image-title">Placeholder Text</p>
+          </div>
+        <div class="image2">
+          <!-- <img class= image src="images/fortuneteller.placeholder.jpg" alt="taro cards set out on display"> -->
+          <p class="image-title">Placeholder Text</p>
+        </div>
+        <div class="image3">
+          <!-- <img class=image src="images/gaming.placeholder.jpg" alt="handheld gaming consoles in a drawer."> -->
+          <p class="image-title">Placeholder Text</p>
+          </div>
+        <div class="image4">
+          <!-- <img class=image src="images/workspace.placeholder.jpg" alt="a dual monitor workspace is on a desk with plants on either side"> -->
+        <p class="image-title">Placeholder Text</p>
+        </div>
+      </div>
+    </article>
     
   
   <footer class="footer">
-    <h2>Contact Me</h2>
+    <h2 class="contact-me-title">Contact Me</h2>
     <ul class="contact-links">
      <li>Phone Number</li><!--make the box that hovers or drops down with the phone number-->
      <li>Website</li> <!--make a popup saying you are at the website-->
-      <li><a href="https://github.com/ruths98" >Github</a></li>
-      <li><a href="https://www.linkedin.com/in/ruth-stevens-5a2a2b244/">LinkedIn</a></li>
+      <li><a  href="https://github.com/ruths98" >Github</a></li>
+      <li><a style="text-decoration:none;" href="https://www.linkedin.com/in/ruth-stevens-5a2a2b244/">LinkedIn</a></li>
     </ul>
   </footer>
   </body>
