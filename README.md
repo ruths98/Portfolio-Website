@@ -10,4 +10,9 @@ No installation is required.
 
 ## Usage
 
-The purpose of this site is to house my work as I learn to code and develop. The primary audience will be future employers. Click on a project image and you will be directed to the project itself.
+To access the website, use the following url:
+https://ruths98.github.io/Portfolio-Website/
+![Screenshot.1](portfolio-1.png)
+![Screenshot.2](portfolio-2.png)
+![Screenshot.3](portfolio-3.png)
+
