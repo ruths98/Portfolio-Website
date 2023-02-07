@@ -12,7 +12,7 @@ No installation is required.
 
 To access the website, use the following url:
 https://ruths98.github.io/Portfolio-Website/
-![Screenshot.1](portfolio-1.png)
-![Screenshot.2](portfolio-2.png)
-![Screenshot.3](portfolio-3.png)
+![Screenshot.1](./images/portfolio-1.png)
+![Screenshot.2](./images/portfolio-2.png)
+![Screenshot.3](./images/portfolio-3.png)
 
